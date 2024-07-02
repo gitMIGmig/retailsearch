@@ -1,0 +1,936 @@
+[
+{
+    "attributes": {
+        "id": {
+            "text": [
+                "2087859,5"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "image_link_full": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/media\/cache\/gallery\/rc\/tcv5i05r\/timberland-premium-6-inch-boot-meskie-buty-zimowe-zolty-tb0100617131.jpg"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "mobile_link": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/timberland-premium-6-inch-boot-meskie-buty-zimowe-zolty-tb0100617131"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sale_price": {
+            "text": [
+                "1099.99"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "referencePrice": {
+            "text": [
+                ""
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "season": {
+            "text": [
+                "24P2Q4"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "seasonality": {
+            "text": [
+                "zimowe"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "mpn": {
+            "text": [
+                "TB0100617131"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "categoryCode": {
+            "text": [
+                "B"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "categoryLabel": {
+            "text": [
+                "Buty"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "genderCode": {
+            "text": [
+                "MM"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "genderLabel": {
+            "text": [
+                "Męskie"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition1Code": {
+            "text": [
+                "BCP"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition1Label": {
+            "text": [
+                "BOOTS"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sportCategoryCode": {
+            "text": [
+                "P"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sportCategoryLabel": {
+            "text": [
+                "BOOTS"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isCarryover": {
+            "text": [
+                "1"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "producer_image_1": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/images\/loga_marek\/karta_produktow\/timberland.png"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "producer_image_2": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/images\/loga_marek\/timberland_2.png"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "productGroupCode": {
+            "text": [
+                "BC"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "productGroupLabel": {
+            "text": [
+                "Buty casual"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "groupingCode": {
+            "text": [
+                "GC36849"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "noOfSizes": {
+            "text": [
+                "7"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isSeasonal": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sizeEur": {
+            "text": [
+                "43,5"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "allSizesEur": {
+            "text": [
+                "42;41,5;43,5;44,5;45,5;45;46"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isPromoted": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isNovelty": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "visualSearch": {
+            "text": [
+                "footwear"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "familyLabel": {
+            "text": [
+                "Timberland Premium 6"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "collectionGroupLabel": {
+            "text": [
+                "Classics"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "patternLabel": {
+            "text": [
+                ""
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "materialTypeLabel": {
+            "text": [
+                "zamsz-nubuk"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "outsoleTypeLabel": {
+            "text": [
+                "płaska"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "buckleTypeLabel": {
+            "text": [
+                "sznurowadło"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "shoeToeTypeLabel": {
+            "text": [
+                "okrągły"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "shoeHeelTypeLabel": {
+            "text": [
+                "zamknięty"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "cuttingTypeLabel": {
+            "text": [
+                ""
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition2Label": {
+            "text": [
+                "BOOTS"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition3Label": {
+            "text": [
+                "Wysokie"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel0": {
+            "text": [
+                "Męskie \/ Marki \/ Timberland"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel1": {
+            "text": [
+                "Męskie \/ Buty \/ Buty zimowe"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel2": {
+            "text": [
+                "Męskie \/ Buty \/ Casual"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel3": {
+            "text": [
+                "Męskie \/ Buty \/ Trapery"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel4": {
+            "text": [
+                "Marki \/ Timberland"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel5": {
+            "text": [
+                "Buty \/ Casual"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel6": {
+            "text": [
+                "Buty \/ Buty zimowe"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel7": {
+            "text": [
+                "Buty \/ Trapery"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel8": {
+            "text": [
+                "Sale \/ buty"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel9": {
+            "text": [
+                "Timberland Premium 6"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "emblems": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        }
+    },
+    "title": "TIMBERLAND PREMIUM 6 INCH BOOT",
+    "uri": "https:\/\/sklep.sizeer.com\/timberland-premium-6-inch-boot-meskie-buty-zimowe-zolty-tb0100617131",
+    "description": "Wysoka jakość i niepowtarzalny styl sprawiły, że produkty Timberland na całym świecie zyskały miano ikonicznych. Buty sygnowane kultowym już drzewkiem to najlepszy wybór dla osób ceniących ponadczasowe wzornictwo i dbałość o każdy detal. Cholewka ze skóry naturalnej premium zadowoli nawet najbardziej wymagających koneserów ulicznej mody. Konstrukcja wzmocniona została fabryczną impregnacją gwarantującą ochronę przed ścieraniem i zmiennymi warunkami atmosferycznymi. Poczwórne przeszycia oraz nierdzewne szlufki nie tylko podnoszą jakość butów, ale także podkreślają staranność wykonania i wieloletnie dziedzictwo marki. Słynna, gumowa podeszwa zadba o przyczepność w każdej sytuacji.Wierzch: skóra naturalna pochodząca z garbarni klasy LWG SilverWyściółka: Primaloft 400 grWkładka: skóra naturalnaPodeszwa: gumaAnti-fatigueWaterproofKod produktu: 10061",
+    "images": [
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/mbf756f22a069114b139d5017580d94c4_208785_z_1.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/mbf756f22a069114b139d5017580d94c4_208785_z_1.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m960066ac5f20ea3403791dba6209e855_208785_z_3.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m0ea81b213d51be5c72d16d0199b66640_208785_z_4.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m63f2fed99ee77498267c9003c8535585_208785_z_5.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m1db3394955d521d4941503d031c0019b_208785_z_6.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m793df972eeda7a5cf892f24614c20acc_208785_z_7.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m5cc7fa031779c03c03d907feab82454b_208785_z_8.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m32f083d6125bff28f1b883e16e5a0be7_208785_z_9.jpg"
+        }
+    ],
+    "priceInfo": {
+        "price": 1099.99
+    },
+    "conditions": [
+        "new"
+    ],
+    "categories": [
+        "Męskie > Buty > Buty zimowe",
+        "Męskie > Buty > Buty zimowe"
+    ],
+    "availability": "in stock",
+    "brands": [
+        "TI",
+        "Timberland"
+    ],
+    "gtin": "0000906039357",
+    "sizes": [
+        "9,5"
+    ],
+    "colorInfo": {
+        "color": "ŻÓŁTY"
+    },
+    "id": "208785"
+},
+{
+    "attributes": {
+        "id": {
+            "text": [
+                "2087858"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "image_link_full": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/media\/cache\/gallery\/rc\/tcv5i05r\/timberland-premium-6-inch-boot-meskie-buty-zimowe-zolty-tb0100617131.jpg"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "mobile_link": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/timberland-premium-6-inch-boot-meskie-buty-zimowe-zolty-tb0100617131"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sale_price": {
+            "text": [
+                "1099.99"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "referencePrice": {
+            "text": [
+                ""
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "season": {
+            "text": [
+                "24P2Q4"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "seasonality": {
+            "text": [
+                "zimowe"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "mpn": {
+            "text": [
+                "TB0100617131"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "categoryCode": {
+            "text": [
+                "B"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "categoryLabel": {
+            "text": [
+                "Buty"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "genderCode": {
+            "text": [
+                "MM"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "genderLabel": {
+            "text": [
+                "Męskie"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition1Code": {
+            "text": [
+                "BCP"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition1Label": {
+            "text": [
+                "BOOTS"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sportCategoryCode": {
+            "text": [
+                "P"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sportCategoryLabel": {
+            "text": [
+                "BOOTS"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isCarryover": {
+            "text": [
+                "1"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "producer_image_1": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/images\/loga_marek\/karta_produktow\/timberland.png"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "producer_image_2": {
+            "text": [
+                "https:\/\/sklep.sizeer.com\/images\/loga_marek\/timberland_2.png"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "productGroupCode": {
+            "text": [
+                "BC"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "productGroupLabel": {
+            "text": [
+                "Buty casual"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "groupingCode": {
+            "text": [
+                "GC36849"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "noOfSizes": {
+            "text": [
+                "7"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isSeasonal": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "sizeEur": {
+            "text": [
+                "41,5"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "allSizesEur": {
+            "text": [
+                "42;41,5;43,5;44,5;45,5;45;46"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isPromoted": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "isNovelty": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "visualSearch": {
+            "text": [
+                "footwear"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "familyLabel": {
+            "text": [
+                "Timberland Premium 6"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "collectionGroupLabel": {
+            "text": [
+                "Classics"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "patternLabel": {
+            "text": [
+                ""
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "materialTypeLabel": {
+            "text": [
+                "zamsz-nubuk"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "outsoleTypeLabel": {
+            "text": [
+                "płaska"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "buckleTypeLabel": {
+            "text": [
+                "sznurowadło"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "shoeToeTypeLabel": {
+            "text": [
+                "okrągły"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "shoeHeelTypeLabel": {
+            "text": [
+                "zamknięty"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "cuttingTypeLabel": {
+            "text": [
+                ""
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition2Label": {
+            "text": [
+                "BOOTS"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "definition3Label": {
+            "text": [
+                "Wysokie"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel0": {
+            "text": [
+                "Męskie \/ Marki \/ Timberland"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel1": {
+            "text": [
+                "Męskie \/ Buty \/ Buty zimowe"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel2": {
+            "text": [
+                "Męskie \/ Buty \/ Casual"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel3": {
+            "text": [
+                "Męskie \/ Buty \/ Trapery"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel4": {
+            "text": [
+                "Marki \/ Timberland"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel5": {
+            "text": [
+                "Buty \/ Casual"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel6": {
+            "text": [
+                "Buty \/ Buty zimowe"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel7": {
+            "text": [
+                "Buty \/ Trapery"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel8": {
+            "text": [
+                "Sale \/ buty"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "additionalProductGroupLabel9": {
+            "text": [
+                "Timberland Premium 6"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        },
+        "emblems": {
+            "text": [
+                "0"
+            ],
+            "numbers": [],
+            "searchable": true,
+            "indexable": true
+        }
+    },
+    "title": "TIMBERLAND PREMIUM 6 INCH BOOT",
+    "uri": "https:\/\/sklep.sizeer.com\/timberland-premium-6-inch-boot-meskie-buty-zimowe-zolty-tb0100617131",
+    "description": "Wysoka jakość i niepowtarzalny styl sprawiły, że produkty Timberland na całym świecie zyskały miano ikonicznych. Buty sygnowane kultowym już drzewkiem to najlepszy wybór dla osób ceniących ponadczasowe wzornictwo i dbałość o każdy detal. Cholewka ze skóry naturalnej premium zadowoli nawet najbardziej wymagających koneserów ulicznej mody. Konstrukcja wzmocniona została fabryczną impregnacją gwarantującą ochronę przed ścieraniem i zmiennymi warunkami atmosferycznymi. Poczwórne przeszycia oraz nierdzewne szlufki nie tylko podnoszą jakość butów, ale także podkreślają staranność wykonania i wieloletnie dziedzictwo marki. Słynna, gumowa podeszwa zadba o przyczepność w każdej sytuacji.Wierzch: skóra naturalna pochodząca z garbarni klasy LWG SilverWyściółka: Primaloft 400 grWkładka: skóra naturalnaPodeszwa: gumaAnti-fatigueWaterproofKod produktu: 10061",
+    "images": [
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/mbf756f22a069114b139d5017580d94c4_208785_z_1.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/mbf756f22a069114b139d5017580d94c4_208785_z_1.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m960066ac5f20ea3403791dba6209e855_208785_z_3.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m0ea81b213d51be5c72d16d0199b66640_208785_z_4.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m63f2fed99ee77498267c9003c8535585_208785_z_5.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m1db3394955d521d4941503d031c0019b_208785_z_6.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m793df972eeda7a5cf892f24614c20acc_208785_z_7.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m5cc7fa031779c03c03d907feab82454b_208785_z_8.jpg"
+        },
+        {
+            "url": "https:\/\/sklep.sizeer.com\/media\/cache\/resolve\/gallery_xml\/images\/15\/151\/m32f083d6125bff28f1b883e16e5a0be7_208785_z_9.jpg"
+        }
+    ],
+    "priceInfo": {
+        "price": 1099.99
+    },
+    "conditions": [
+        "new"
+    ],
+    "categories": [
+        "Męskie > Buty > Buty zimowe",
+        "Męskie > Buty > Buty zimowe"
+    ],
+    "availability": "in stock",
+    "brands": [
+        "TI",
+        "Timberland"
+    ],
+    "gtin": "0000906414178",
+    "sizes": [
+        "8"
+    ],
+    "colorInfo": {
+        "color": "ŻÓŁTY"
+    },
+    "id": "208785"
+},
+]
