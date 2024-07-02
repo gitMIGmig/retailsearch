@@ -4,26 +4,27 @@ import {
   CompletionServiceClient,
   protos,
 } from "@google-cloud/retail";
+import { getPreprocessedProducts, importProductsInChunks } from "./products";
 
-const mustGetEnv = (key: string) => {
+export const mustGetEnv = (key: string) => {
   if (!process.env[key]) {
     throw new Error(`Missing environment variable ${key}`);
   }
   return process.env[key];
 };
 
-const PROJECT_NUMBER = mustGetEnv("PROJECT_NUMBER");
-const SERVICE_ACCOUNT_PATH = mustGetEnv("SERVICE_ACCOUNT_PATH");
-const CATALOG = `projects/${PROJECT_NUMBER}/locations/global/catalogs/default_catalog`;
-const PLACEMENT = `projects/${PROJECT_NUMBER}/locations/global/catalogs/default_catalog/placements/default_search`;
-const BRANCH = `projects/${PROJECT_NUMBER}/locations/global/catalogs/default_catalog/branches/0`;
+export const PROJECT_NUMBER = mustGetEnv("PROJECT_NUMBER");
+export const SERVICE_ACCOUNT_PATH = mustGetEnv("SERVICE_ACCOUNT_PATH");
+export const CATALOG = `projects/${PROJECT_NUMBER}/locations/global/catalogs/default_catalog`;
+export const PLACEMENT = `projects/${PROJECT_NUMBER}/locations/global/catalogs/default_catalog/placements/default_search`;
+export const BRANCH = `projects/${PROJECT_NUMBER}/locations/global/catalogs/default_catalog/branches/0`;
 
 process.env.GOOGLE_APPLICATION_CREDENTIALS = SERVICE_ACCOUNT_PATH;
 
 console.log("PROJECT_NUMBER:", PROJECT_NUMBER);
 console.log("SERVICE_ACCOUNT_PATH:", SERVICE_ACCOUNT_PATH);
 
-class RetailSearchClient {
+export class RetailSearchClient {
   private searchServiceClient: SearchServiceClient;
   private completionServiceClient: CompletionServiceClient;
 
@@ -59,9 +60,11 @@ class RetailSearchClient {
 }
 
 const main = async () => {
-  const client = new RetailSearchClient();
-  const res = await client.search("hello", "visitor1");
-  console.log(res);
+  // const client = new RetailSearchClient();
+  // const res = await client.search("hello", "visitor1");
+  // console.log(res);
+  const products = getPreprocessedProducts();
+  await importProductsInChunks(products);
 };
 
 main();
