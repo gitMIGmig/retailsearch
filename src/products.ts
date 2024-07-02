@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 import { ProductServiceClient } from "@google-cloud/retail";
-import { SERVICE_ACCOUNT_PATH, PROJECT_NUMBER } from ".";
+import { SERVICE_ACCOUNT_PATH, PROJECT_NUMBER } from "./constants";
 
 process.env.GOOGLE_APPLICATION_CREDENTIALS = SERVICE_ACCOUNT_PATH;
 
