@@ -9,7 +9,6 @@ import { autocompleteQuerySchema, searchRequestSchema } from "./schema";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
@@ -32,17 +31,19 @@ app.get("/ai/search/v2/indices/:indexId/query", async (req, res) => {
       includeFacets,
     } = req.query;
 
-    const searchRequest = searchRequestSchema.parse({
-      query: query as string,
-      token: token as string,
-      clientUUID: clientUUID as string,
+    const decodedQuery = {
+      query: decodeURIComponent(query as string),
+      token,
+      clientUUID,
       limit: parseInt(limit as string, 10),
       page: parseInt(page as string, 10),
       includeMeta: includeMeta === "true",
-      facets: facets as string,
-      includeFacets: includeFacets as string,
+      facets,
+      includeFacets,
       indexId,
-    });
+    };
+
+    const searchRequest = searchRequestSchema.parse(decodedQuery);
 
     const searchResponse = await searchClient.search(searchRequest);
     res.json(searchResponse);
@@ -60,7 +61,11 @@ app.get("/ai/search/v2/indices/:indexId/query", async (req, res) => {
 
 app.get("/autocomplete", async (req, res) => {
   try {
-    const { query, visitorId } = autocompleteQuerySchema.parse(req.query);
+    const decodedQuery = {
+      query: decodeURIComponent(req.query.query as string),
+      visitorId: req.query.visitorId,
+    };
+    const { query, visitorId } = autocompleteQuerySchema.parse(decodedQuery);
     const autocompleteResponse = await searchClient.autocomplete(
       query,
       visitorId,

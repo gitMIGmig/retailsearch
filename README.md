@@ -65,3 +65,18 @@ ready for retrieval
 ```sh
 tsc && node dist/index.js -e -q "airmax"
 ```
+
+- Run a service that matches the Synerise API interface:
+
+  - Start the API
+
+    ```sh
+    tsc && node dist/index.js -s
+    ```
+
+  - Send requests, exact same format from the frontend is satisifed
+
+  ```sh
+  curl "http://localhost:6969/ai/search/v2/indices/fb1fc9785e920f33a7ca1ef2cc706e761614277015/query?query=buty&token=2BA26361-980C-7E9A-909F-566C4629B4B4&clientUUID=64e5256d-d437-4745-a021-e04478900ad1&limit=5&page=1&includeMeta=true&facets=*&includeFacets=all"
+
+  ```
