@@ -21,16 +21,18 @@ const options = program.opts();
 
 const searchExample = async (query: string) => {
   const client = new RetailSearchClient();
-  const res = await client.search({
+  const req = {
     clientUUID: "123",
     query,
     page: 0,
     limit: 42,
-    token: "oauth2-token",
-    facets: "", // for now
+    token: "*oauth2-token*",
+    facets: "-", // for now
     includeMeta: true,
     includeFacets: "none", // for now
-  });
+  };
+  console.debug("sample search with Synerise-schema request", req);
+  const res = await client.search(req);
   console.log("Search results:", res);
 };
 
