@@ -29,7 +29,7 @@ export class RetailSearchClient {
       offset: request.page * request.limit,
       queryExpansionSpec: { condition: "AUTO" },
     };
-    console.debug(req);
+    console.debug("retail.SearchRequest:", req);
     try {
       let pageSize = 0;
       let results = [];

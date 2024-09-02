@@ -2,6 +2,10 @@
 
 ## Setup
 
+0. Set up the Retail Search API and create a service account, add key to the
+   service account (JSON format), add `retail.editor` permissions to the service
+   account
+
 1.
 
 ```sh

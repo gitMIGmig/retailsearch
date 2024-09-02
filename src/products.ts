@@ -41,7 +41,7 @@ export async function importProductsInChunks(products: any[], chunkSize = 50) {
 
   // Function to handle the import of a single chunk
   const importChunk = async (chunk: any[], index: number) => {
-    console.log(
+    console.info(
       `Importing products ${index * chunkSize} to ${(index + 1) * chunkSize}`,
     );
     try {
@@ -54,9 +54,9 @@ export async function importProductsInChunks(products: any[], chunkSize = 50) {
         },
       });
       const res = await operation.promise();
-      console.log(`Chunk ${index} result:`);
-      console.log(res);
-      if (res[0].errorSamples) console.log(res[0].errorSamples);
+      console.debug(`Chunk ${index} result:`);
+      console.debug(res);
+      if (res[0].errorSamples) console.warn(res[0].errorSamples);
     } catch (error) {
       console.error(`Error importing chunk ${index}:`, error);
     }
