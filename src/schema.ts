@@ -55,7 +55,7 @@ const validateRetailProduct = (
 };
 
 export const retailProductToAIProduct = (
-  product: google.cloud.retail.v2alpha.IProduct,
+  product: google.cloud.retail.v2beta.IProduct,
 ): AIProduct => {
   validateRetailProduct(product);
 

@@ -56,7 +56,7 @@ export async function importProductsInChunks(products: any[], chunkSize = 50) {
       const res = await operation.promise();
       console.log(`Chunk ${index} result:`);
       console.log(res);
-      console.log(res[0].errorSamples);
+      if (res[0].errorSamples) console.log(res[0].errorSamples);
     } catch (error) {
       console.error(`Error importing chunk ${index}:`, error);
     }
