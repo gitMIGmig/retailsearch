@@ -35,7 +35,7 @@ const searchExample = async (query: string) => {
   };
   console.debug("sample search with Synerise-schema request", req);
   const res = await client.search(req);
-  console.log("Search results:", res);
+  console.log("Search results:", JSON.stringify(res, null, 2));
 };
 
 const importProductsExample = async () => {

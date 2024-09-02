@@ -9,10 +9,31 @@ export interface AISearchRequest {
   includeFacets: string;
 }
 
+export interface AIProductAttributes {
+  buckleTypeLabel: string;
+  categoryCode: string;
+  categoryLabel: string;
+  definition1Code: string;
+  definition1Label: string;
+  definition2Label: string;
+  definition3Label: string;
+  familyLabel: string;
+  genderCode: string;
+  genderLabel: string;
+  groupingCode: string;
+  gtins: string[];
+  itemBrandLabel: string;
+  productGroupCode: string;
+  referencePrice: string;
+  season: string;
+  shoeToeTypeLabel: string;
+  sizesEur: string[];
+  sportCategoryCode: string;
+  sportCategoryLabel: string;
+}
+
 export interface AIProduct {
-  attributes: {
-    [key: string]: string | string[];
-  };
+  attributes: AIProductAttributes;
   availability: boolean;
   brand: string;
   category: string;

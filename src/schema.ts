@@ -1,6 +1,35 @@
 import { z } from "zod";
 import { google } from "@google-cloud/retail/build/protos/protos";
-import { AIProduct } from "./synerise-types";
+import { AIProduct, AIProductAttributes } from "./synerise-types";
+
+const makeAIProductAttributes = (attributes: {
+  [key: string]: google.cloud.retail.v2beta.ICustomAttribute;
+}): AIProductAttributes => {
+  return {
+    buckleTypeLabel: attributes.buckleTypeLabel?.text?.[0] ?? "",
+    categoryCode: attributes.categoryCode?.text?.[0] ?? "",
+    categoryLabel: attributes.categoryLabel?.text?.[0] ?? "",
+    definition1Code: attributes.definition1Code?.text?.[0] ?? "",
+    definition1Label: attributes.definition1Label?.text?.[0] ?? "",
+    definition2Label: attributes.definition2Label?.text?.[0] ?? "",
+    definition3Label: attributes.definition3Label?.text?.[0] ?? "",
+    familyLabel: attributes.familyLabel?.text?.[0] ?? "",
+    genderCode: attributes.genderCode?.text?.[0] ?? "",
+    gtins: attributes.gtin?.text ?? [],
+    season: attributes.season?.text?.[0] ?? "",
+    sizesEur: attributes?.allSizesEur?.text
+      ? attributes.allSizesEur.text[0].split(";")
+      : [],
+    genderLabel: attributes.genderLabel?.text?.[0] ?? "",
+    groupingCode: attributes.groupingCode?.text?.[0] ?? "",
+    itemBrandLabel: "-", // TODO
+    referencePrice: attributes.referencePrice?.text?.[0] ?? "",
+    productGroupCode: attributes.productGroupCode?.text?.[0] ?? "",
+    shoeToeTypeLabel: attributes.shoeToeTypeLabel?.text?.[0] ?? "",
+    sportCategoryCode: attributes.sportCategoryCode?.text?.[0] ?? "",
+    sportCategoryLabel: attributes.sportCategoryLabel?.text?.[0] ?? "",
+  };
+};
 
 const validateRetailProduct = (
   product: google.cloud.retail.v2alpha.IProduct,
@@ -62,7 +91,7 @@ export const retailProductToAIProduct = (
   validateRetailProduct(product);
 
   const aiProduct: AIProduct = {
-    attributes: {},
+    attributes: makeAIProductAttributes(product.attributes!),
     availability: product.availability === "IN_STOCK",
     brand: product.brands![0]!,
     category: product.categories![0]!,
@@ -84,18 +113,6 @@ export const retailProductToAIProduct = (
     sizes: product.sizes!,
     title: product.title!,
   };
-
-  // Convert attributes
-  if (product.attributes) {
-    for (const [key, value] of Object.entries(product.attributes)) {
-      if (value.text) {
-        aiProduct.attributes[key] =
-          value.text.length > 1 ? value.text : value.text[0];
-      } else if (value.numbers) {
-        aiProduct.attributes[key] = value.numbers.map(String);
-      }
-    }
-  }
 
   return aiProduct;
 };
