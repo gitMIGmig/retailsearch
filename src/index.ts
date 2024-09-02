@@ -3,6 +3,7 @@ import { Command } from "commander";
 import { getPreprocessedProducts, importProductsInChunks } from "./products";
 import { RetailSearchClient } from "./search";
 import { PROJECT_NUMBER, SERVICE_ACCOUNT_PATH } from "./constants";
+import { server } from "./server";
 
 // note: this is hacky, don't do this in prod
 process.env.GOOGLE_APPLICATION_CREDENTIALS = SERVICE_ACCOUNT_PATH;
@@ -15,6 +16,7 @@ program
   .option("-s, --service", "Run in service mode")
   .option("-i, --import", "Import products")
   .option("-h, --help", "Display help information")
+  .option("-p, --port <port>", "Port number for the server")
   .parse(process.argv);
 
 const options = program.opts();
@@ -58,7 +60,7 @@ const main = async () => {
     console.log("Importing products");
     await importProductsExample();
   } else if (options.service) {
-    console.log("Running in service mode at <endpoint> (unimplemented)");
+    server(options.port ? parseInt(options.port) : 3000);
   } else {
     program.outputHelp();
   }

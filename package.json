@@ -11,12 +11,18 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
     "@types/node": "^20.14.9",
     "typescript": "^5.5.3"
   },
   "dependencies": {
     "@google-cloud/retail": "^3.5.0",
     "commander": "^12.1.0",
-    "dotenv": "^16.4.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "zod": "^3.23.8"
   }
 }

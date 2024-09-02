@@ -1,3 +1,4 @@
+import { z } from "zod";
 import { google } from "@google-cloud/retail/build/protos/protos";
 import { AIProduct } from "./synerise-types";
 
@@ -98,3 +99,20 @@ export const retailProductToAIProduct = (
 
   return aiProduct;
 };
+
+export const searchRequestSchema = z.object({
+  query: z.string(),
+  token: z.string(),
+  clientUUID: z.string(),
+  limit: z.number().int().positive(),
+  page: z.number().int().nonnegative(),
+  includeMeta: z.boolean(),
+  facets: z.string(),
+  includeFacets: z.string(),
+  indexId: z.string(),
+});
+
+export const autocompleteQuerySchema = z.object({
+  query: z.string(),
+  visitorId: z.string(),
+});
