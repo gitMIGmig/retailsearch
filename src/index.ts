@@ -25,7 +25,7 @@ const searchExample = async (query: string) => {
     clientUUID: "123",
     query,
     page: 0,
-    limit: 42,
+    limit: 5,
     token: "*oauth2-token*",
     facets: "-", // for now
     includeMeta: true,

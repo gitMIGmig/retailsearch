@@ -39,13 +39,14 @@ const validateRetailProduct = (
   if (!product.uri) {
     throw new Error("Product URI is missing");
   }
-  if (
-    !product.colorInfo ||
-    !product.colorInfo.colors ||
-    product.colorInfo.colors.length === 0
-  ) {
-    throw new Error("Product color information is missing");
-  }
+  // TODO add colorInfo (missing in producti import)
+  // if (
+  //   !product.colorInfo ||
+  //   !product.colorInfo.colors ||
+  //   product.colorInfo.colors.length === 0
+  // ) {
+  //   throw new Error("Product color information is missing");
+  // }
   if (!product.primaryProductId) {
     throw new Error("Product primary product ID is missing");
   }

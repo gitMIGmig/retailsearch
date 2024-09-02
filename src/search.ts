@@ -1,6 +1,7 @@
 import {
   SearchServiceClient,
   CompletionServiceClient,
+  ProductServiceClient,
 } from "@google-cloud/retail";
 import { BRANCH, CATALOG, PLACEMENT } from "./constants";
 import { AISearchRequest, AISearchResponse } from "./synerise-types";
@@ -35,11 +36,19 @@ export class RetailSearchClient {
       let results = [];
       let iter = this.searchServiceClient.searchAsync(req);
       for await (const response of iter) {
-        if (!response.product) {
-          console.error("Product is missing in search response");
-          continue;
+        console.log(response.id);
+        if (!response.product || !response.product.id) {
+          console.error("Product might not be populated yet");
+          if (response.id) {
+            const [product, _req] = await this.getProduct(response.id);
+            if (!product) {
+              continue;
+            }
+            results.push(product);
+          }
+        } else {
+          results.push(response.product!);
         }
-        results.push(response.product);
         pageSize += 1;
         if (pageSize == request.limit) {
           break;
@@ -85,8 +94,8 @@ export class RetailSearchClient {
   }
 
   /**
-   * autocomplete requires a dataset based on search events or importing custom data
-   * base method, requires some more work
+   * autocomplete requires a dataset based on search events or importing
+   * custom data; pretty basic, requires some more work
    * */
   async autocomplete(query: string, visitorId: string) {
     const req = {
@@ -97,6 +106,18 @@ export class RetailSearchClient {
     };
     console.log(req);
     const res = await this.completionServiceClient.completeQuery(req);
+    return res;
+  }
+
+  /**
+   * getProduct is a utility method, it can be Promise.all'd
+   * when the products are marked as retrievable and still indexing
+   * */
+  private async getProduct(productId: string) {
+    const productClient = new ProductServiceClient();
+    const res = productClient.getProduct({
+      name: BRANCH + "/products/" + productId,
+    });
     return res;
   }
 }
